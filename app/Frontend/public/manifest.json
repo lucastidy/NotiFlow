@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "NotiFlow",
+  "version": "1.0.0",
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:8080/*"],
+  "description": "Schedule Creation for UBC Students!",
+
+  "icons": {
+    "16": "NotiFlow_Logo.png",
+    "48": "NotiFlow_Logo.png",
+    "128": "NotiFlow_Logo.png"
+  },
+
+  "action": {
+    "default_icon": {
+      "16": "NotiFlow_Logo.png",
+      "24": "NotiFlow_Logo.png",
+      "36": "NotiFlow_Logo.png"
+    },
+    "default_title": "NotiFlow",
+    "default_popup": "index.html"
+  }
+}

@@ -1,0 +1,13 @@
+.env
+.pyc
+__pycache__/
+.DS_Store
+.vscode/
+ubc_course_schedule.ics
+.venv/
+midterm_dates.json
+.coverage
+htmlcov/
+calendar.ics
+.ruff_cache/
+.pytest_cache/

@@ -1,0 +1,45 @@
+@import "../../../../App.css";
+
+.assignment-card {
+  color: var(--tertiary-color);
+  font-family: var(--primary-font);
+  margin: 0;
+  padding: 0;
+}
+
+.assignment-container{
+  padding-bottom: 10px;
+}
+
+.assignment-name {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+.assignment-detail {
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+}
+
+.assignment-detail strong {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.assignment-line{
+  border: none;
+  border-top: 2px solid var(--quinternary-color);
+  height: 0.1rem;
+  width: 100%;
+  opacity: 10%;
+  margin: 0;
+
+}

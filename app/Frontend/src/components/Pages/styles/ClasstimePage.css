@@ -1,0 +1,17 @@
+@import "../../../App.css";
+
+.classtime-page {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.classtime-button{
+  display: block;
+  width: 100%;
+}
+
+.classtime-button-container{
+  padding: 10px;
+}

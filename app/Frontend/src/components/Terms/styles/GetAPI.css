@@ -1,0 +1,93 @@
+@import "../../../App.css";
+
+.getapi-container{
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+.getapi-title {
+  font-size: 1.5rem;
+  color: var(--quinternary-color);
+  font-family: var(--primary-font);
+  font-weight: 700;
+}
+.getapi-subtitle{
+  font-size: 1rem;
+  color: var(--quaternary-color);
+  font-family: var(--secondary-font);
+  margin-bottom: 12px;
+}
+.getapi-text{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  margin: 0;
+}
+.getapi-instructions{
+  margin-top: .4rem;
+  font-size: 1rem;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+}
+.getapi-input-container{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+}
+
+.getapi-line {
+  border: none;
+  border-top: 2px solid var(--quinternary-color);
+  height: 0.1rem;
+  margin: 16px 0 0 0;
+  width: 100%;
+  opacity: 30%;
+  padding-bottom: 10px;
+}
+
+.getapi-input{
+  background-color: var(--quaternary-color);
+  color: var(--secondary-color);
+}
+
+.getapi-input-key{
+  font-family: var(--primary-font);
+  font-size: 15px;
+  font-weight: bold;
+}
+.getapi-input-button{
+  padding: 5px 10px;
+  background-color: rgb(116, 255, 109);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 8px;
+  font-family: var(--primary-font);
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  margin-bottom: 1px;
+}
+
+.getapi-input-button:hover {
+  transform: scale(0.96);
+}
+
+.getapi-input-button:active {
+  transform: scale(1.1);
+}
+
+.getapi-error{
+  margin-top: 8px;
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  font-family: var(--secondary-font);
+}

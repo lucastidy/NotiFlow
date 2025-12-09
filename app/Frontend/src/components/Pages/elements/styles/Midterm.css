@@ -1,0 +1,47 @@
+@import "../../../../App.css";
+
+.midterm-card {
+  color: var(--tertiary-color);
+  font-family: var(--primary-font);
+  margin: 0;
+  padding: 0;
+}
+
+.midterm-container{
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.midterm-name {
+  margin: 0;
+  padding: 10px;
+  padding-left: 20px;
+  color: var(--primary-color);
+  font-family: var(--primary-font);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.midterm-detail {
+  margin: 0;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+}
+
+.midterm-detail strong {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.midterm-line{
+  border: none;
+  border-top: 2px solid var(--quinternary-color);
+  height: 0.1rem;
+  width: 100%;
+  opacity: 10%;
+  margin: 0;
+
+}

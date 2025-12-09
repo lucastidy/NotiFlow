@@ -1,0 +1,69 @@
+@import "../../../App.css";
+
+.popup-content {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
+.popup-top-container {
+  padding-bottom: 10px;
+}
+
+.popup-agreement {
+  font-size: 0.85rem;
+  color: var(--quinternary-color);
+  font-family: var(--primary-font);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.popup-title {
+  font-size: 1.5rem;
+  color: var(--quinternary-color);
+  font-family: var(--primary-font);
+  font-weight: 700;
+}
+
+.popup-date {
+  font-size: 0.7rem;
+  color: var(--quaternary-color);
+  font-family: var(--primary-font);
+  margin-bottom: 12px;
+}
+
+.popup-line {
+  border: none;
+  border-top: 2px solid var(--quinternary-color);
+  height: 0.1rem;
+  margin: 16px 0 0 0;
+  width: 100%;
+  opacity: 30%;
+  padding-bottom: 10px;
+}
+
+.popup-content-container {
+  padding-bottom: 10px;
+}
+
+.popup-terms-title{
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.popup-terms-text{
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+}
+.popup-terms-list{
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 0.8rem;
+}

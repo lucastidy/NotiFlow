@@ -1,0 +1,40 @@
+[project]
+name = "notiflow-workspace"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "datetime>=5.5",
+    "dotenv>=0.9.9",
+    "requests>=2.32.5",
+    "openai>=2.8.1",
+    "ics>=0.7.2",
+    "numpy>=2.3.5",
+    "pandas>=2.3.3",
+    "flask>=3.1.2",
+    "uv>=0.9.12",
+    "pytz>=2025.2",
+    "icalendar>=6.3.2",
+    "pathlib>=1.0.1",
+    "flask-cors>=6.0.1",
+    "pytest>=9.0.1",
+    "magicmock>=0.3",
+    "pytest-cov>=7.0.0",
+    "pre-commit>=4.5.0",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+

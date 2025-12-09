@@ -1,0 +1,51 @@
+@import "../../App.css";
+
+.main-components-container {
+  padding: 10px 20px;
+  width: 100%;
+  font-family: var(--primary-font);
+  display: flex;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+}
+
+.main-component {
+  position: relative;
+  border: none;
+  background: transparent;
+  color: var(--quaternary-color);
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.main-component::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--quinternary-color);
+  transition: width 0.2s ease;
+  outline: none;
+}
+
+.main-component.active {
+  color: var(--quinternary-color);
+  outline: none;
+}
+
+.main-component.active::after {
+  width: 100%;
+  outline: none;
+}
+
+.main-component:hover:not(.active) {
+  color: var(--quinternary-color);
+  opacity: 0.8;
+  outline: none;
+}

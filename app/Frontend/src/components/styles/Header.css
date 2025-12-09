@@ -1,0 +1,49 @@
+@import "../../App.css";
+
+/* Header Container */
+.header-container {
+    width: 100%;
+    background: linear-gradient(135deg, #66ea9b 0%, #22522e 100%);
+    box-shadow:  0px 10px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    z-index: 10;
+}
+
+/* Title Container */
+.header-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Logo Image */
+.header-image {
+    width: 54px !important;
+    height: 54px !important;
+    object-fit: contain;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
+}
+
+.header-image:hover {
+    transform: scale(1.2);
+}
+
+/* Header Title */
+.header-title {
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--quinternary-color);
+    margin: 0;
+    letter-spacing: -0.5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+
