@@ -10,12 +10,12 @@ The NotiFlow streamlines this process by automatically syncing course data, pars
 ## Installation
 
 #### Frontend
-To set up and run the frontend, execute the following commands from the project root. You will need to have Docker installed for this step:
+To set up and run the frontend, execute the following commands from the project root. You will need to have `Docker` installed for this step:
 ```
 cd ./app/Frontend
 docker-compose up --build
 ```
-If you don't want to install Docker for whatever reason, you need to install node [here](https://nodejs.org/en/download). Then use:
+If you do not have `Docker`, you can run the app using `Node.js` which can be downloaded here [here](https://nodejs.org/en/download). Then use:
 ```
 npm install
 npm run build
