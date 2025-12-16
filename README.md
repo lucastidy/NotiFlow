@@ -15,7 +15,7 @@ To set up and run the frontend, execute the following commands from the project 
 cd ./app/Frontend
 docker-compose up --build
 ```
-If you do not have `Docker`, you can run the app using `Node.js` which can be downloaded here [here](https://nodejs.org/en/download). Then use:
+If you do not have `Docker`, you can run the app using `Node.js` which can be downloaded [here](https://nodejs.org/en/download). Then use:
 ```
 npm install
 npm run build
